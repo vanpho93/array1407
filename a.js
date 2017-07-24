@@ -29,4 +29,4 @@ function myFilter(someArr, checkFunction) {
 }
 
 console.log(myFilter([1, 3, 5, 4, 6], e => e % 2 === 1)); // -> 4, 6
-console.log(myFilter(arrPerson, e => e.height > 160));
+// console.log(myFilter(arrPerson, e => e.height > 160));
