@@ -8,11 +8,11 @@ function myMap(arr, doSth) {
 
 const arrNum = [1, 4, 6, 8, 4];
 
-console.log(myMap(arrNum, e => e * e));
+// console.log(myMap(arrNum, e => e * e));
 // => [1, 16, 36, 64, 16]
-console.log(myMap(arrNum, e => e * 2));
+// console.log(myMap(arrNum, e => e * 2));
 
-console.log(arrNum.map(e => e * e));
+console.log(arrNum.filter(e => console.log(e * e)));
 // => [2, 8, 12, 16, 9]
 
 // => [18, 10, 16]
